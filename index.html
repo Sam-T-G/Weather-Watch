@@ -20,9 +20,31 @@
   </head>
 
   <body>
-    <h1>Weather Watch</h1>
+    <div class="container-fluid">
+        <div class="row navbar navbar-dark bg-dark">
+            <div class="col-12 text-center">
+                <h1>Weather Watch</h1>
+            </div>
+        </div>
 
-    <h2>Search</h2>
+        <div class="row">
+            <div class="col-3 bg-light pb-2 pt-3" id="searchResults">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Search for Your City:</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="input-group">
+                            <input class="form-control" type="text" id="enterCity"
+                                placeholder="Enter city to view weather"><button type="button" id="searchBtn"
+                                class="btn btn-primary"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+
 
     <!-- JS link -->
     <script src="./assets/js/script.js"></script>
